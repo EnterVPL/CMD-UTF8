@@ -1,9 +1,11 @@
 @echo off
-echo I setting UTF-8 in your CMD.
+echo Program start setting UTF-8 in your CMD.
+echo Test before:
+echo 'ęąłóżźć ☆★Œ©®'
 echo 'chcp 65001'
 chcp 65001
-echo Test:
-echo 'chcp'
 chcp
+echo Test after:
+echo 'ęąłóżźć ☆★Œ©®'
 PAUSE
 @echo on
